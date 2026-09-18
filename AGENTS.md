@@ -1,5 +1,20 @@
 # MovieApp – Agent Instructions
 
+## Development Environment
+
+The primary development environment is Windows using PowerShell.
+
+When executing terminal commands:
+
+- Use PowerShell-compatible commands.
+- Do not assume Unix/Linux utilities such as `sed`, `awk`, `touch`, `rm`,
+  or other Unix-specific commands are available.
+- Prefer native PowerShell commands.
+- If Continue's native file editing tools fail, PowerShell commands may be
+  used to create or modify files.
+- After modifying files through the terminal, inspect the resulting files
+  and use `git diff` to verify the changes.
+  
 ## 1. Project Goal
 
 MovieApp is a deliberately lightweight cross-platform mobile application
@@ -131,6 +146,7 @@ Do not introduce tracking, telemetry, analytics, or user-data collection
 without explicit approval.
 
 ---
+
 
 ## 6. Architecture
 
